@@ -8,7 +8,7 @@ from abc import ABC, abstractmethod
 import openai
 
 gpt_costs_per_thousand = {
-    'davinci': 0.0200,
+    'davinci': 1.0000,
     'curie': 0.0020,
     'babbage': 0.0005,
     'ada': 0.0004
